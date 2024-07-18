@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slider-container {
+  margin: 0 auto;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.slider-container .slick-prev:before,
+.slider-container .slick-next:before {
+  color: black;
+}
+.slider-container div{
+    margin-left:10px
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center;
+    width:100%; */
+}
